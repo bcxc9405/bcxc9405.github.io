@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bcxc9405.github.io/sitemap.xml

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ExampleSite</title>
+    <link>https://bcxc9405.github.io/</link>
+    <description>Recent content on ExampleSite</description>
+    <image>
+      <url>https://bcxc9405.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://bcxc9405.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 29 Nov 2022 21:20:49 +0800</lastBuildDate><atom:link href="https://bcxc9405.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First_post</title>
+      <link>https://bcxc9405.github.io/posts/first_post/</link>
+      <pubDate>Tue, 29 Nov 2022 21:20:49 +0800</pubDate>
+      
+      <guid>https://bcxc9405.github.io/posts/first_post/</guid>
+      <description>hugo： 搭建步骤 mkdir hugo tar -zxf hugo_0.107.0_Linux-64bit.tar.gz -C hugo	//解压 sudo cp ./hugo /usr/local/bin	//复制一份hugo程序到/usr/local/bin/，不然hugo执行找不到路径 hugo version	//查看版本 hugo new site bcxc-blog	//新建站点 git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod	//下载主题 vim config.toml	//修改config.toml配置文件，使用主题的config.toml mv config.toml config.yml //将config.tom改名为config.yml hugo server	//启动博客 hugo new post/first_blog.md	//编写文章 文章模板 --- title: &amp;quot;文章标题&amp;quot;	# 文章标题 author: &amp;quot;作者&amp;quot;	# 文章作者 description : &amp;quot;描述信息&amp;quot;	# 文章描述信息 date: 2015-09-28	# 文章编写日期 lastmod: 2015-04-06	# 文章修改日期 draft: ture	# 表示是否为草稿（写完了文章把这里改为 false 即可） tags = [	# 文章所属标签 &amp;quot;文章标签1&amp;quot;, &amp;quot;文章标签2&amp;quot; ] categories = [	# 文章所属标签 &amp;quot;文章分类1&amp;quot;, &amp;quot;文章分类2&amp;quot;, ] keywords = [	# 文章关键词 &amp;quot;Hugo&amp;quot;, &amp;quot;static&amp;quot;, &amp;quot;generator&amp;quot;, ] next: /tutorials/github-pages-blog	# 下一篇博客地址 prev: /tutorials/automated-deployments	# 上一篇博客地址 --- 正文 </description>
+    </item>
+    
+  </channel>
+</rss>
